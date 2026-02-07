@@ -1,0 +1,12 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; margin: 0; display: flex; justify-content: center; }
+#app-container { background: white; width: 100%; max-width: 450px; min-height: 100vh; padding: 30px; box-sizing: border-box; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
+.hidden { display: none; }
+h1 { color: #2d3436; text-align: center; font-size: 2.5rem; margin-bottom: 5px; }
+input, select, button { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #dfe6e9; border-radius: 8px; font-size: 1rem; }
+button { background: #00b894; color: white; border: none; font-weight: bold; cursor: pointer; transition: 0.3s; }
+button:hover { background: #00a884; }
+button.secondary { background: #636e72; margin-top: 20px; }
+.card { background: #fff; border: 1px solid #eee; padding: 15px; border-radius: 10px; margin-bottom: 15px; position: relative; }
+.card h4 { margin: 0; color: #2d3436; }
+.card p { margin: 5px 0; color: #636e72; }
+.del-btn { background: #ff7675; width: auto; padding: 5px 10px; font-size: 0.8rem; }
