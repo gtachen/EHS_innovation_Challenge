@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeanStreet Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <section id="login-page">
+            <h1>BeanStreet</h1>
+            <p>Login to start trading</p>
+            <input type="text" id="user-input" placeholder="Username">
+            <input type="password" id="pass-input" placeholder="Password">
+            <button onclick="handleLogin()">Login</button>
+        </section>
+
+        <section id="dashboard" class="hidden">
+            <h2 id="user-greeting"></h2>
+            <div class="menu-grid">
+                <button onclick="navigateTo('view-items')">📦 Browse Listings</button>
+                <button onclick="navigateTo('post-item')">➕ Post New Item</button>
+            </div>
+            <button class="secondary" onclick="handleLogout()">Logout</button>
+        </section>
+
+        <section id="post-item" class="hidden">
+            <h2>New Listing</h2>
+            <input type="text" id="name-input" placeholder="Item Name">
+            <input type="number" id="cost-input" placeholder="Price ($)">
+            <select id="type-input">
+                <option value="Sell">Sell</option>
+                <option value="Rent">Rent</option>
+            </select>
+            <button onclick="submitToApi()">Post to Marketplace</button>
+            <button class="secondary" onclick="navigateTo('dashboard')">Back</button>
+        </section>
+
+        <section id="view-items" class="hidden">
+            <h2>Marketplace</h2>
+            <input type="text" id="search-bar" placeholder="Search items..." oninput="filterListings()">
+            <div id="items-list"></div>
+            <button class="secondary" onclick="navigateTo('dashboard')">Back</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
