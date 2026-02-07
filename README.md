@@ -6,7 +6,7 @@
 ---
 
 ## 🚀 The Mission
-Most household tools are used for less than 20 minutes in their entire lifetime. **[Project Name]** helps neighbors share underutilized items (like drills, camping gear, and party supplies) to save money and reduce the carbon footprint of manufacturing.
+Most household tools are used for less than 20 minutes in their entire lifetime. **Our Project** helps neighbors share underutilized items (like drills, camping gear, and party supplies) to save money and reduce the carbon footprint of manufacturing.
 
 ### Key Features
 - **P2P Lending:** List your items and borrow from neighbors safely.
